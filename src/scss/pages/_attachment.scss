@@ -42,7 +42,6 @@
       margin-top: 4.1rem;
 
       @media (max-width: 767px){
-        display: block;
         margin-top: 6.4rem;
       }
     }
@@ -62,7 +61,7 @@
       }
 
       @media (max-width: 767px){
-        margin: 0 auto 2.2rem;
+        margin: 0 auto 3.2rem;
         width: 100%;
       }
 
@@ -98,7 +97,7 @@
       flex: 0 0 24.8rem;
 
       @media (max-width: 767px) {
-        height: auto !important;
+        min-height: 11.4rem;
       }
 
       img{
@@ -241,6 +240,11 @@
 
       .attachment__link-image {
         height: 100%;
+
+        @media (max-width: 767px) {
+          height: auto;
+          min-height: 11.4rem;
+        }
       }
     }
   }

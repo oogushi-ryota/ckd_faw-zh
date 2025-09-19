@@ -103,6 +103,7 @@
 
       @media (max-width: 767px){
         font-size: 3.6rem;
+        line-height: 150%;
         margin-top: 7.5rem;
       }
     }
@@ -294,9 +295,8 @@
       margin: 7.2rem auto 0;
       width: 47.7rem;
       height: 9.6rem;
-      @media (max-width: 767px){
-      }
     }
+
     &__link-btn{
       font-size: 3rem;
       font-weight: bold;
