@@ -31,11 +31,10 @@
                   适用于以前难以部署助力装置的场所，有助于提高作业效率。
                 </p>
                 <div class="main-visual__movie-wrap">
-                  <iframe src="https://www.youtube.com/embed/adodA9Z9or4?si=nEyKv1kwSX1CLO5i"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                  </iframe>
+                  <%- include('./includes/component/_movie.ejs', {poster: "assets/images/mv_movie_thumb.jpg", filePath: "https://ckd.co-site.jp/ad/movie/kiki/sc/faw/1920-1080_FAW PRmovie_sc.mp4",path: "./"}); %>
+                  <div class="video_btn" id="video_btn">
+                    <img src="./assets/images/icon_youtube.svg" alt="">
+                  </div>
                 </div>
                 <div class="armwrap">
                   <div class="arm" id="arm">

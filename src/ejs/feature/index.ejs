@@ -251,7 +251,9 @@
           </ul>
   
           <div class="feature__movie-wrap">
-            <%- include('../includes/component/_movie_youtube.ejs', {videoId: "nnUZU47-1c4"}); %>
+            <div class="common-movie-wrap">
+              <%- include('../includes/component/_movie.ejs', {poster: "assets/images/feature/feature_movie_thumb.jpg", filePath: "https://ckd.co-site.jp/ad/movie/kiki/sc/faw/1920-1080_FAW_feature_sc_disclaimer.mp4",path: "../"}); %>
+            </div>
           </div>
         </div>
 
@@ -435,7 +437,10 @@
     <div class="common__modal-content">
       <div class="common__movie-wrap">
         <div class="common__movie-container">
-          <%- include('../includes/component/_movie_youtube.ejs', {videoId: "ynzve5fqDG4"}); %>
+          <div class="common__movie-play-tumb" data-index="1">
+            <img src="../assets/images/feature/movie_thumb_01.jpg" alt="">
+          </div>
+          <%- include('../includes/component/_movie.ejs', {poster: "assets/images/feature/movie_thumb_01.jpg", filePath: "https://ckd.co-site.jp/ad/movie/kiki/sc/faw/1920-1080_FAW_hashira_disclaimer_sc.mp4",path: "../"}); %>
         </div>
         <div class="common__close common__js_modal_close"></div>
       </div>

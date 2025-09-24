@@ -115,7 +115,9 @@
 
         <h2 class="case-study-detail__movie-block-title">视频介绍</h2>
         <div class="case-study-detail__movie-block">
-          <%- include('../../includes/component/_movie_youtube.ejs', {videoId: "X6H0QjCjRXo"}); %>
+          <div class="common-movie-wrap">
+            <%- include('../../includes/component/_movie.ejs', {poster: "assets/images/case_study/02/movie_thumb.png", filePath: "https://ckd.co-site.jp/ad/movie/kiki/sc/faw/1920_1080_FAW_jirei_sc_disclaimer.mp4",path: "../../"}); %>
+          </div>
         </div>
         <div class="case-study-detail__link-btn-wrap common__link-btn-overlap">
           <a class="case-study-detail__link-btn common__link-btn-overlap-btn -arrow" href="../">返回列表</a>
