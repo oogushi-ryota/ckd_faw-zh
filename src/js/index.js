@@ -165,38 +165,38 @@ function updateLinkUrls() {
   var links = [
     {
       id: 'downloadLink', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/1078/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/1078/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/1078/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/1078/'
     },
     {
       id: 'downloadLink02', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/1078/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/1078/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/1078/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/1078/'
     },
     {
       id: 'cawLink', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/1077/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/1077/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/1077/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/1077/'
     },
     {
       id: 'asuLink', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/111/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/111/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/111/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/111/'
     },
     {
       id: 'rpLink', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/395/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/395/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/395/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/395/'
     },
     {
       id: 'atLink', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/412/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/412/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/412/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/412/'
     },
     {
       id: 'abpLink', 
-      mobileUrl: 'https://www.ckd.co.jp/kiki/jp/sp/product/detail/411/',
-      desktopUrl: 'https://www.ckd.co.jp/kiki/jp/product/detail/411/'
+      mobileUrl: 'https://www.ckd.co.jp/kiki/sc/sp/product/detail/411/',
+      desktopUrl: 'https://www.ckd.co.jp/kiki/sc/product/detail/411/'
     },
     // 他のリンクも同様に追加可能
   ];
